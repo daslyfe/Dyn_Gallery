@@ -29,7 +29,7 @@ function App() {
     <div>
       <div style={{}}>
         <img style={{position:"absolute", left: "2vw", width: "6vw"}} src= {logo} />
-        <h2 style={{textAlign: "center", paddingTop: "2vw", paddingBottom: "2vw"}}>HATCH AWARDS 59</h2>
+        <p style={{textAlign: "center", paddingTop: "2vw", paddingBottom: "2vw", fontSize: "2.4vw"}}>HATCH AWARDS 59</p>
       </div>
       <SortableGallery items={items} onSortEnd={onSortEnd} axis={"xy"} />
     </div>
